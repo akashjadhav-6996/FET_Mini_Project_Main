@@ -1,0 +1,30 @@
+{
+  "Artist": [
+    {
+      "Role": "Artist",
+      "Name": "akash jadhav",
+      "Email": "akashramujadhav@gmail.com",
+      "Art_Form": "Singing",
+      "Contact_No": "7507347206",
+      "Gender": "Male",
+      "Address": "Pune",
+      "Password": "Jadhav",
+      "C_Password": "Jadhav",
+      "id": 1
+    }
+  ],
+  "User": [
+    {
+      "Role": "User",
+      "Name": "Shashank Diwate",
+      "Email": "shashankd@gmail.com",
+      "Profession": "Student",
+      "Contact_No": "7896541236",
+      "Gender": "Male",
+      "Address": "Solopur",
+      "Password": "Diwate",
+      "C_Password": "Diwate",
+      "id": 1
+    }
+  ]
+}
