@@ -15,15 +15,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
-<body>
+<body style="background-color:antiquewhite">
     <section class="vh-100">
+        <nav class="navbar navbar-light bg-dark">
+            <span class="navbar-brand mb-0 h1 text-white">Meet Artist</span>
+          </nav>
         <div class="container-fluid h-custom">
-            <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col-md-9 col-lg-6 col-xl-5">
-                    <p class="lead fw-normal mb-0 me-3 text-center text-info">Welcome to MeetArtist</p>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-                        class="img-fluid" alt="Sample image">
-                </div>
+            <div class="row d-flex justify-content-center align-items-center h-100 ">
+                
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
                     <form>
                         <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
@@ -73,7 +72,7 @@
             </div>
         </div>
         <div
-            class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+            class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark">
             <!-- Copyright -->
             <div class="text-white mb-3 mb-md-0">
                 Copyright © 2022. All rights reserved.
@@ -140,7 +139,9 @@
                                 for (var i = 0; i < data.length; i++) {
                                     if ((($("#email").val()) === data[i].Email) && (($("#password").val()) === data[i].Password)) {
                                         // location.href =  "sucssesPage.html";
-                                        window.open("artistdasboard.html")
+                                        alert("Login sucess");
+                                        // window.location.replace("http://stackoverflow.com");
+                                         window.open("../User_Dash/userdashboard.html")
                                         // document.write("<h1>Hello " + $("#email").val() + " Welcome to Cybage!!</h1>" + "<img src='" + data[i].Name + "'>");
                                     }
                                 }

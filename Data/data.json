@@ -25,6 +25,18 @@
       "Password": "Diwate",
       "C_Password": "Diwate",
       "id": 1
+    },
+    {
+      "Role": "User",
+      "Name": "Aishwarya",
+      "Email": "aishwaryapatil@cybage.com",
+      "Profession": "Student",
+      "Contact_No": "8329205435",
+      "Gender": "Female",
+      "Address": "Pune",
+      "Password": "123",
+      "C_Password": "123",
+      "id": 2
     }
   ]
 }
